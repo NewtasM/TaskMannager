@@ -21,7 +21,7 @@ builder.Services.AddScoped<ITeacherSubjectGroupRepository, TeacherSubjectGroupRe
 builder.Services.AddScoped<IStudentGroupRepository, StudentGroupRepository>();
 builder.Services.AddScoped<IParentStudentRepository, ParentStudentRepository>();
 
-// Swagger/OpenAPI
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
